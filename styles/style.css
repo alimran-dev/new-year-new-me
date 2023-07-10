@@ -56,9 +56,19 @@ header {
     justify-content: space-around;
     padding: 50px;
 }
-
-.my-failure>img {
+.failure-img{
+    border-radius: 420px;
+    background-color: #ffd6b0;
+    height: 390px;
+    width: 390px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.failure-img>img {
     width: 420px;
+    margin-top: -142px;
+    margin-left: -18px;
 }
 
 .my-failure-info {
