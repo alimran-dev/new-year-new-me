@@ -37,6 +37,7 @@ header {
     font-size: 16px;
     margin-bottom: 30px;
 }
+
 .header-info button {
     font-size: 20px;
     text-align: right;
@@ -46,30 +47,109 @@ header {
     padding: 20px;
     border: none;
 }
+
 /* my failure related styles here  */
-.my-failure{
+.my-failure {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 50px;
 }
-.my-failure > img{
+
+.my-failure>img {
     width: 420px;
 }
-.my-failure-info{
+
+.my-failure-info {
     max-width: 400px;
 }
-.my-failure-info h2{
+
+.my-failure-info h2 {
     font-size: 40px;
     font-weight: 700;
     color: #151414;
     margin-bottom: 25px;
 }
-.my-failure-info p, .my-failure-info li{
+
+.my-failure-info p,
+.my-failure-info li {
     font-size: 16px;
     font-weight: 400;
     color: #444343;
     list-style: none;
     padding: 5px 0px;
+}
+
+/* my plans related styles starts here  */
+.my-plans{
+    padding-bottom: 80px;
+}
+.my-plans>h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.plan-card {
+    text-align: center;
+    padding: 50px;
+}
+
+.plan-card img {
+    width: 92px;
+}
+
+.plan-card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #151414;
+    padding: 10px 0px;
+}
+
+.plan-card p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #737272;
+}
+
+.positive-mindset-container {
+    height: 200px;
+    width: 80%;
+    background-image: url('../assets/images/watch.png'),linear-gradient(60deg,#a33a10ea,#767e047a);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.positive-mindset{
+    width: 450px;
+    padding: 40px;
+    padding-left: 50px;
+}
+.positive-mindset h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+
+.positive-mindset button {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 30px;
+    color: #F15B22;
+    border-radius: 5px;
+    border: none;
 }
