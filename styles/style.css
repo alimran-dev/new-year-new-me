@@ -46,3 +46,30 @@ header {
     padding: 20px;
     border: none;
 }
+/* my failure related styles here  */
+.my-failure{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.my-failure > img{
+    width: 420px;
+}
+.my-failure-info{
+    max-width: 400px;
+}
+.my-failure-info h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 25px;
+}
+.my-failure-info p, .my-failure-info li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    list-style: none;
+    padding: 5px 0px;
+}
