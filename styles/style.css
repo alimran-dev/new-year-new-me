@@ -1,4 +1,48 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+
+/* common styles here  */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header related styles here  */
+header {
+    background-image: url('../assets/images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 120px;
+}
+
+.header-info {
+    max-width: 490px;
+    text-align: right;
+    margin: 50px 20px;
+}
+
+.header-info h1 {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header-info p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.header-info button {
+    font-size: 20px;
+    text-align: right;
+    font-weight: 600px;
+    color: white;
+    background-color: #F15B22;
+    padding: 20px;
+    border: none;
 }
